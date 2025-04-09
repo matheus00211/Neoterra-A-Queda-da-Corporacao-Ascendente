@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1c2526, #ff4040);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    background: linear-gradient(45deg, #2f2f2f, #8b0000);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text-section {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: #ff4500;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h2 {
+    color: #ff4500;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.price {
+    font-size: 24px;
+    color: #ff6347;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff6347, #b22222);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #b22222, #ff6347);
+}
+
+.image-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .text-section {
+        text-align: left;
+    }
+
+    .image-section img {
+        max-width: 250px;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+}
